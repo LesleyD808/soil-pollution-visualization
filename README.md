@@ -78,7 +78,6 @@ soil-pollution-visualization/
 |-------|------------|------|
 | ![](./screenshots/SoilEvaluation_admin.png) | ![](./screenshots/SoilEvaluation_researcher.png) | ![](./screenshots/SoilEvaluation_user.png) |
 | Information Reporting |
-|-----------------------|
 | ![](./screenshots/InformationReporting.png) |
 
 ---
