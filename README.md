@@ -110,14 +110,18 @@ soil-pollution-visualization/
 |------------------------|----------------------|------------------------|
 | ![](./screenshots/Popularization.png) | ![](./screenshots/EditingPopularization.png) | ![](./screenshots/PopularizationManagement.png) |
 
+---
 
 ## 📐 System Architecture
 
-```plaintext
+```
 Frontend (Vue.js + ArcGIS) <--> Backend API (Spring Boot) <--> MySQL Database
                        ↑                                ↓
              Interactive UI               Evaluation Algorithms
-🔬 Evaluation Methods
+```
+
+
+## 🔬 Evaluation Methods
 1. Single-Factor Pollution Index
 Evaluates each heavy metal separately (e.g., Cd, Hg, Pb)
 
@@ -129,29 +133,35 @@ Combines multiple pollutants using weighted averages and max values
 More accurate for overall risk assessment
 
 Reference Standard: GB 15618–1995 (Soil Environmental Quality Standard)
-🧾 Dataset
+
+---
+## 🧾 Dataset
 Background values for heavy metals in Hubei Province
 
 Sampled data collected and simulated for testing
 
 Evaluation benchmarks based on national standards
 
-🗓️ Timeline
+---
 
-Period	Task
-Dec 2023	Topic selection & literature review
-Jan–Mar 2024	Data collection & system architecture
-Apr 2024	System development
-May 2024	Testing, optimization, and thesis defense
-📈 Future Work
-Integrate ML-based pollution prediction models
+## 🗓️ Timeline
 
-Add real-time monitoring and alerting features
+| Period         | Task                                              |
+|----------------|---------------------------------------------------|
+| Dec 2023       | Topic selection & literature review               |
+| Jan–Mar 2024   | Data collection & system architecture             |
+| Apr 2024       | System development                                |
+| May 2024       | Testing, optimization, and thesis defense         |
 
-Mobile-friendly interface and cross-platform access
+---
+## 📈 Future Work
+- Integrate ML-based pollution prediction models
+- Add real-time monitoring and alerting features
+- Mobile-friendly interface and cross-platform access
+- Import/export geospatial formats (Shapefiles, GeoJSON)
 
-Import/export geospatial formats (Shapefiles, GeoJSON)
-
-👩‍💻 Author
+---
+## 👩‍💻 Author
 Xinyu Dai
+
 Email: xinyudai2002.career@gmail.com
