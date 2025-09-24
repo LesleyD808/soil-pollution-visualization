@@ -37,7 +37,7 @@ The system enables users to:
 ```
 soil-pollution-visualization/
 ├── backend/
-│   ├── src/                      # Java source code (Spring Boot)
+│   ├── src/                     # Java source code (Spring Boot)
 │   └── resources/               # Application configs, SQL files
 │   └── pom.xml                  # Maven project file
 ├── frontend/
