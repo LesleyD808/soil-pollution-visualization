@@ -1,8 +1,8 @@
-# 🌱 Soil Heavy Metal Pollution Visualization System
+# Soil Heavy Metal Pollution Visualization System 土壤重金属污染可视化系统
 
 A GIS-based environmental monitoring platform for evaluating and visualizing soil heavy metal pollution. This system was developed as part of my undergraduate thesis at Hubei University of Technology and aims to improve the spatial analysis and visualization of soil contamination data in China.
 
-## 📌 Project Overview
+## Project Overview
 
 This system integrates environmental data, spatial analysis, and visualization through GIS technologies. It supports real-time evaluation of pollution severity using recognized environmental standards and provides an interactive web interface for researchers, administrators, and general users.
 
@@ -12,16 +12,16 @@ The system enables users to:
 - Manage and query soil data in real time
 - Monitor environmental trends with temporal and spatial dimensions
 
-## 🚀 Features
+## Features
 
-- 🧪 Pollution evaluation using Single-Factor and Nemerow Comprehensive Index
-- 🗺️ Interactive GIS maps based on ArcGIS API for JavaScript
-- 📊 Visual dashboard for element-wise data analysis and trends
-- 👥 Role-based access control: Admin, Researcher, General User
-- 💾 Real-time data querying and database management
-- 📈 Fixed background values support for region-specific pollution comparison (e.g., Hubei Province)
+- Pollution evaluation using Single-Factor and Nemerow Comprehensive Index
+- Interactive GIS maps based on ArcGIS API for JavaScript
+- Visual dashboard for element-wise data analysis and trends
+- Role-based access control: Admin, Researcher, General User
+- Real-time data querying and database management
+- Fixed background values support for region-specific pollution comparison (e.g., Hubei Province)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer         | Technology                                 |
 |---------------|---------------------------------------------|
@@ -31,7 +31,7 @@ The system enables users to:
 | Visualization | ECharts, Datart (optional), Matplotlib     |
 | Tools         | IntelliJ IDEA, Git, Postman                |
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 soil-pollution-visualization/
@@ -50,7 +50,7 @@ soil-pollution-visualization/
 ```
 
 
-## 📸 Sample Screenshots
+## Sample Screenshots
 
 ### 🏠 Homepage (Role-based Views)
 | Admin | Researcher | User |
@@ -111,7 +111,7 @@ soil-pollution-visualization/
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 ```
 Frontend (Vue.js + ArcGIS) <--> Backend API (Spring Boot) <--> MySQL Database
@@ -120,7 +120,7 @@ Frontend (Vue.js + ArcGIS) <--> Backend API (Spring Boot) <--> MySQL Database
 ```
 
 
-## 🔬 Evaluation Methods
+## Evaluation Methods
 1. Single-Factor Pollution Index
 Evaluates each heavy metal separately (e.g., Cd, Hg, Pb)
 
@@ -134,7 +134,7 @@ More accurate for overall risk assessment
 Reference Standard: GB 15618–1995 (Soil Environmental Quality Standard)
 
 ---
-## 🧾 Dataset
+## Dataset
 Background values for heavy metals in Hubei Province
 
 Sampled data collected and simulated for testing
@@ -143,7 +143,7 @@ Evaluation benchmarks based on national standards
 
 ---
 
-## 🗓️ Timeline
+## Timeline
 
 | Period         | Task                                              |
 |----------------|---------------------------------------------------|
@@ -153,14 +153,14 @@ Evaluation benchmarks based on national standards
 | May 2024       | Testing, optimization, and thesis defense         |
 
 ---
-## 📈 Future Work
+## Future Work
 - Integrate ML-based pollution prediction models
 - Add real-time monitoring and alerting features
 - Mobile-friendly interface and cross-platform access
 - Import/export geospatial formats (Shapefiles, GeoJSON)
 
 ---
-## 👩‍💻 Author
+## Author
 Xinyu Dai
 
 Email: xinyudai2002.career@gmail.com
