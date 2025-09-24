@@ -1,4 +1,4 @@
-# Soil Heavy Metal Pollution Visualization System 
+# 🌱Soil Heavy Metal Pollution Visualization System 
 土壤重金属污染可视化系统
 
 A GIS-based environmental monitoring platform for evaluating and visualizing soil heavy metal pollution. This system aims to improve the spatial analysis and visualization of soil contamination data in China.
